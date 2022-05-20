@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'WallyBum',
-  tagline: 'Tech Blog2',
+  tagline: 'Tech Blog',
   url: 'https://wallybum.github.io',
   baseUrl: '/',
   onBrokenLinks: 'warn', // default : throw
