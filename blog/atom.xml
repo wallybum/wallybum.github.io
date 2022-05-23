@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wallybum.github.io/blog</id>
     <title>WallyBum Blog</title>
-    <updated>2022-05-23T00:36:20.000Z</updated>
+    <updated>2022-05-23T02:02:53.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wallybum.github.io/blog"/>
     <subtitle>WallyBum Blog</subtitle>
     <icon>https://wallybum.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[About Me]]></title>
-        <id>info</id>
-        <link href="https://wallybum.github.io/blog/info"/>
-        <updated>2022-05-23T00:36:20.000Z</updated>
+        <id>about</id>
+        <link href="https://wallybum.github.io/blog/about"/>
+        <updated>2022-05-23T02:02:53.000Z</updated>
         <summary type="html"><![CDATA[🛠 Tech Stack]]></summary>
         <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="-tech-stack">🛠 Tech Stack<a class="hash-link" href="#-tech-stack" title="Direct link to heading">​</a></h3><p><img loading="lazy" src="https://img.shields.io/badge/JAVA-007396?style=flat-square&amp;logo=Java&amp;logoColor=white" alt="java" class="img_E7b_">
 <img loading="lazy" src="https://img.shields.io/badge/JAVASCRIPT-F7D1E?style=flat-square&amp;logo=JavaScript&amp;logoColor=white" alt="javascript" class="img_E7b_">
@@ -23,6 +23,20 @@
 <img loading="lazy" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=PostgreSQL&amp;logoColor=white" alt="postgresql" class="img_E7b_"></p><p><img loading="lazy" src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&amp;logo=Windows&amp;logoColor=white" alt="windows" class="img_E7b_">
 <img loading="lazy" src="https://img.shields.io/badge/macOS-000000?style=flat-square&amp;logo=macOS&amp;logoColor=white" alt="macos" class="img_E7b_">
 <img loading="lazy" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&amp;logo=Linux&amp;logoColor=white" alt="linux" class="img_E7b_"></p>]]></content>
+        <author>
+            <name>WallyBum</name>
+            <uri>https://github.com/wallybum</uri>
+        </author>
+        <category label="About" term="About"/>
+        <category label="Resume" term="Resume"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blog]]></title>
+        <id>blog</id>
+        <link href="https://wallybum.github.io/blog/blog"/>
+        <updated>2022-05-23T02:02:53.000Z</updated>
+        <summary type="html"><![CDATA[나중에 작성.]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="나중에-작성">나중에 작성.<a class="hash-link" href="#나중에-작성" title="Direct link to heading">​</a></h2>]]></content>
         <author>
             <name>WallyBum</name>
             <uri>https://github.com/wallybum</uri>

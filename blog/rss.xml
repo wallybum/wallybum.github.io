@@ -4,15 +4,15 @@
         <title>WallyBum Blog</title>
         <link>https://wallybum.github.io/blog</link>
         <description>WallyBum Blog</description>
-        <lastBuildDate>Mon, 23 May 2022 00:36:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 May 2022 02:02:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
             <title><![CDATA[About Me]]></title>
-            <link>https://wallybum.github.io/blog/info</link>
-            <guid>info</guid>
-            <pubDate>Mon, 23 May 2022 00:36:20 GMT</pubDate>
+            <link>https://wallybum.github.io/blog/about</link>
+            <guid>about</guid>
+            <pubDate>Mon, 23 May 2022 02:02:53 GMT</pubDate>
             <description><![CDATA[🛠 Tech Stack]]></description>
             <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="-tech-stack">🛠 Tech Stack<a class="hash-link" href="#-tech-stack" title="Direct link to heading">​</a></h3><p><img loading="lazy" src="https://img.shields.io/badge/JAVA-007396?style=flat-square&amp;logo=Java&amp;logoColor=white" alt="java" class="img_E7b_">
 <img loading="lazy" src="https://img.shields.io/badge/JAVASCRIPT-F7D1E?style=flat-square&amp;logo=JavaScript&amp;logoColor=white" alt="javascript" class="img_E7b_">
@@ -24,6 +24,16 @@
 <img loading="lazy" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=PostgreSQL&amp;logoColor=white" alt="postgresql" class="img_E7b_"></p><p><img loading="lazy" src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&amp;logo=Windows&amp;logoColor=white" alt="windows" class="img_E7b_">
 <img loading="lazy" src="https://img.shields.io/badge/macOS-000000?style=flat-square&amp;logo=macOS&amp;logoColor=white" alt="macos" class="img_E7b_">
 <img loading="lazy" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&amp;logo=Linux&amp;logoColor=white" alt="linux" class="img_E7b_"></p>]]></content:encoded>
+            <category>About</category>
+            <category>Resume</category>
+        </item>
+        <item>
+            <title><![CDATA[Blog]]></title>
+            <link>https://wallybum.github.io/blog/blog</link>
+            <guid>blog</guid>
+            <pubDate>Mon, 23 May 2022 02:02:53 GMT</pubDate>
+            <description><![CDATA[나중에 작성.]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="나중에-작성">나중에 작성.<a class="hash-link" href="#나중에-작성" title="Direct link to heading">​</a></h2>]]></content:encoded>
         </item>
     </channel>
 </rss>
