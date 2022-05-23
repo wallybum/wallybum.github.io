@@ -82,11 +82,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title:'Site',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'About',
+                to: '/blog/about',
+              },
+              {
+                label: 'Blog',
+                to: '/blog/blog',
               },
             ],
           },
@@ -110,18 +114,18 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/wallybum',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} WallyBum, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
