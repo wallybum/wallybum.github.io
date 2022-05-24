@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwallybum_github_io=self.webpackChunkwallybum_github_io||[]).push([[535],{5641:function(t){t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"About Me","permalink":"/blog/about"},{"title":"Docusaurus \ube14\ub85c\uadf8 \uad6c\ud604\uae30","permalink":"/blog/blog"}]}')}}]);
