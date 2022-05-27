@@ -82,6 +82,12 @@ const config = {
             position: 'left'
           },
           {
+            type: 'doc',
+            docId: 'server/intro',
+            label: 'Server',
+            position: 'left'
+          },
+          {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
