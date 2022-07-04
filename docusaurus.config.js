@@ -83,6 +83,12 @@ const config = {
           },
           {
             type: 'doc',
+            docId: 'development/intro',
+            label: 'Development',
+            position: 'left'
+          },
+          {
+            type: 'doc',
             docId: 'server/intro',
             label: 'Server',
             position: 'left'
