@@ -4,7 +4,7 @@
         <title>WallyBum Blog</title>
         <link>https://wallybum.github.io/blog</link>
         <description>WallyBum Blog</description>
-        <lastBuildDate>Mon, 01 Aug 2022 07:54:05 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Aug 2022 15:08:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[About Me]]></title>
             <link>https://wallybum.github.io/blog/about</link>
             <guid>about</guid>
-            <pubDate>Mon, 01 Aug 2022 07:54:05 GMT</pubDate>
+            <pubDate>Tue, 09 Aug 2022 15:08:24 GMT</pubDate>
             <description><![CDATA[🛠 Tech Stack]]></description>
             <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="-tech-stack">🛠 Tech Stack<a class="hash-link" href="#-tech-stack" title="Direct link to heading">​</a></h3><p><img loading="lazy" src="https://img.shields.io/badge/JAVA-007396?style=flat-square&amp;logo=Java&amp;logoColor=white" alt="java" class="img_E7b_">
 <img loading="lazy" src="https://img.shields.io/badge/JAVASCRIPT-F7D1E?style=flat-square&amp;logo=JavaScript&amp;logoColor=white" alt="javascript" class="img_E7b_">
@@ -31,7 +31,7 @@
             <title><![CDATA[Docusaurus 블로그 구현기]]></title>
             <link>https://wallybum.github.io/blog/blog</link>
             <guid>blog</guid>
-            <pubDate>Mon, 01 Aug 2022 07:54:05 GMT</pubDate>
+            <pubDate>Tue, 09 Aug 2022 15:08:24 GMT</pubDate>
             <description><![CDATA[블로그를 만든 이유]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="블로그를-만든-이유">블로그를 만든 이유<a class="hash-link" href="#블로그를-만든-이유" title="Direct link to heading">​</a></h2><p>사실 예전부터 Tistroy 블로그를 운영하였다. Tistory에서 글을 작성할 때, 내가 사용하는 스킨에 따라 개성 있는 글을 작성할 수 있다는 장점 때문에 사용하였다.
 하지만, 해당 스킨은 내가 직접 만든 것이 아니기 때문에, 스킨 배포자의 라이선스 정책 변경이나, 업데이트 중단 등의 문제가 발생하였을 경우
