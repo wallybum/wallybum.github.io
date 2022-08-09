@@ -3,7 +3,7 @@ authors: [wallybum]
 tags: [디자인 패턴, 팩토리 메서드 패턴]
 sidebar_position: 3
 ---
-# 팩토리 메서드 패턴(Factory Method Pattern)
+# 팩토리 메서드 패턴
 
 ## 개요
 팩토리 메서드 패턴을 줄여서 **팩토리(Factory Pattern)** 이라고 하며, 다른 종류로는 **추상 팩토리 패턴(Abstract Factory Pattern)**이 있다.
@@ -12,7 +12,7 @@ sidebar_position: 3
 ## 팩토리 메서드 패턴
 팩토리 매서드 패턴은 생성 패턴(Creational Pattern)의 종류 중 하나이며, 자식(하위) 클래스가 어떤 객체를 생성할지 결정하며, 부모 클래스는 자식 클래스로 부터 전달된 인풋에 따라 객체를 생성하여 반환하도록 설계된 패턴이다.
 
-## 팩토리 메서드 패턴의 사용이유
+## 사용이유
 그러면 왜 저런 패턴을 써야할까? 간단하게 치킨(Chicken)을 예로 들겠다.
 
 고객이 치킨을 주문 하면 주문을 받고, 치킨의 이름 / 색깔 / 가격등을 기입하고 고객에게 전달한다는 예제 코드이다.
@@ -33,6 +33,7 @@ public class Customer {
 ```
 
 - Chicken.java
+
 ```java
 public class Chicken {
 
@@ -123,6 +124,7 @@ public class ChickenFactory {
 Customer 클래스에서는 ChickenFactory로 요청을 할 것이고, 현재 상황에서 ChickenFactory 클래스는 다음과 같이 수정되어야 할 것이다.
 
 - ChickenFactory.java(신 메뉴 추가 시)
+
 ```java
 public class ChickenFactory {
     public static Chicken orderChicken(String name, String email) {
@@ -153,6 +155,7 @@ public class ChickenFactory {
 ```
 
 > 결과
+
 ```console
 허니콤보 만들 준비 하는 중...
 허니콤보를 다 만들었습니다.
@@ -177,6 +180,7 @@ Chicken [name=레드콤보, price=19,000원]
 여기서 공통으로 뺄 수있는 항목들만 ChickenFactory 클래스에 유지 시키고 일부를 수정한다.
 
 - ChickenFactory.java
+
 ```java
 public interface ChickenFactory {
     default Chicken orderChicken(String name, String email) {
@@ -315,7 +319,7 @@ public class Customer {
 ![img1](../../../static/img/docs/development/Design%20Pattern/FactoryMethodPattern/FactoryMethodPatternDiagram.png)
 
 
-### 주의점
+## 주의점
 위 코드는 JAVA 11을 기준으로 작성되었다. 만약 JAVA 8을 사용한다면 인터페이스(ChickenFactory.java)에 private method를 사용할 수 없다.
 
 인터페이스에 Private Method는 JAVA 9부터 사용할 수 있다.
