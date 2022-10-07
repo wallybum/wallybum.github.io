@@ -72,7 +72,7 @@ public class Settings {
 
 
 ### synchronized를 이용하여 멀티 쓰레드 환경에서 안전하게 싱글톤 패턴 구현
-![img1](../../../static/img/docs/development/Design%20Pattern/SingletonPattern/Synchronized.png)
+![img1](../../../../static/img/docs/development/Design%20Pattern/SingletonPattern/Synchronized.png)
 
 위 그림과 같이 **쓰레드 1번**이 빨간색 1번의 if절을 만난 뒤, instance가 null 이여서 빨간색 2번 내부로 들어갔을 때, **쓰레드 2번**이 파란색의 1번의 if절을 만난 뒤, instance가 null 이여서 파란색 2번 내부로 들어갈 수 도 있다.
 
@@ -182,7 +182,7 @@ public class Settings {
 이때, 파란색 쓰레드가 1번의 if 문을 만나고, 파란색의 2번을 만나게 되면, 빨간색 쓰레드가 먼저 synchronized를 만났기 때문에 수행이 종료될 때 까지 대기를 하게된다. 파란색 쓰레드가 대기를 하는 동안, 빨간색 쓰레드는 3번을 수행하고, Settings 인스턴스를 생성하게 되고, 파란색 쓰레드가 그 다음 작업을 수행하려고 할 때, 이미 instance는 null이 아니기 때문에 if문을 수행하지 않는다.  
 이렇게 함으로써 Thread-Safe가 된다.
 
-![img2](../../../static/img/docs/development/Design%20Pattern/SingletonPattern/DoubleCheckingLocking.png)
+![img2](../../../../static/img/docs/development/Design%20Pattern/SingletonPattern/DoubleCheckingLocking.png)
 
 
 Double Checked Locking이 **synchronized getInstance()**보다 성능이 좋은 이유는 다음과 같다.
@@ -366,12 +366,12 @@ public enum Settings {
 ```
 
 Settings 클래스가 엄청 간단해졌다. 그리고 위 Singleton클래스를 run 하게되면 다음과 같은 오류가 발생하는데, 이유는 Enum은 DeclaredConstructors를 통한 리플렉션은 적용되지 않기 때문이다. 
-![img3](../../../static/img/docs/development/Design%20Pattern/SingletonPattern/EnumTypeError.png)
+![img3](../../../../static/img/docs/development/Design%20Pattern/SingletonPattern/EnumTypeError.png)
 
 Constructors의 newInstance() 메서드에 다음과 같이 Enum은 리플렉션을 허용하지 않도록 되어있다. 
 **(Modifier.ENUM)문구**
 
-![img4](../../../static/img/docs/development/Design%20Pattern/SingletonPattern/NotAllowReflectionAsEnum.png)
+![img4](../../../../static/img/docs/development/Design%20Pattern/SingletonPattern/NotAllowReflectionAsEnum.png)
 
 ## 정리
 1. Java에서 Enum을 사용하지 않고 싱글톤 패턴을 구현하는 방법은?

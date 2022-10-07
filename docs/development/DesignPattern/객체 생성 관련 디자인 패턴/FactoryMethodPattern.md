@@ -316,7 +316,7 @@ public class Customer {
 
 팩토리 메서드 패턴을 적용한 뒤 다이어그램은 아래와 같다.
 
-![img1](../../../static/img/docs/development/Design%20Pattern/FactoryMethodPattern/FactoryMethodPatternDiagram.png)
+![img1](../../../../static/img/docs/development/Design%20Pattern/FactoryMethodPattern/FactoryMethodPatternDiagram.png)
 
 
 ## 주의점
