@@ -316,7 +316,7 @@ public class Customer {
 
 팩토리 메서드 패턴을 적용한 뒤 다이어그램은 아래와 같다.
 
-![img1](../../../static/img/docs/development/Design%20Pattern/FactoryMethodPattern/FactoryMethodPatternDiagram.png)
+![img1](../../../../static/img/docs/development/Design%20Pattern/FactoryMethodPattern/FactoryMethodPatternDiagram.png)
 
 
 ## 주의점
@@ -409,5 +409,14 @@ public class RedComboFactory extends DefaultChickenFactory {
 ```
 
 ## 팩토리 메서드 패턴 장점
+- 기존 코드를 수정하지 않고, 새로운 인스턴스를 다른 방법으로 확장이 가능하다. Creater와 Factory간의 관계가 느슨한 결합(Loose coupling)으로 되어있기 때문이다. 이로 인해 확장에는 열려있고 변경에 닫혀있는 객체 지향 원칙을 준수할 수 있다.
 
 ## 팩토리 메서드 패턴 단점
+각자의 역할이 나뉘어지다보니 클래스가 많아지는 단점이 있다.
+
+## 정리
+1. 확장에는 열려있고 변경에 닫혀있는 객체 지향 원칙 이란?
+> 기존 코드를 변경하지 않으면서, 새로운 기능을 얼마든지 확장할 수 있는 구조로 만드는것을 의미한다.
+
+2. Java 8에 추가된 default 메서드란?
+> Java 8 이전에는 인터페이스에 추상 메서드만 정의할 수 있었고, 이 인터페이스를 구현하는 클래스에서 해당 메서드를 구현하거나 추상 클래스로 만드는 방법 뿐이였으나, Java 8부터는 인터페이스에 기본 구현체를 만들 수 있게 되어, 그 인터페이스를 구현하는 클래스 혹은 그 인터페이스를 상속받은 또 다른 인터페이스도 해당 기능을 사용할 수 있게 되었다.
