@@ -102,51 +102,6 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title:'Site',
-            items: [
-              {
-                label: 'About',
-                to: '/blog/about',
-              },
-              {
-                label: 'Blog',
-                to: '/blog/blog',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/wallybum',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} WallyBum, Inc. Built with Docusaurus.`,
       },
       prism: {
