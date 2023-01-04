@@ -4,29 +4,10 @@
         <title>WallyBum Blog</title>
         <link>https://wallybum.github.io/</link>
         <description>WallyBum Blog</description>
-        <lastBuildDate>Wed, 04 Jan 2023 08:01:25 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Nov 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
-        <item>
-            <title><![CDATA[About Me]]></title>
-            <link>https://wallybum.github.io/about</link>
-            <guid>about</guid>
-            <pubDate>Wed, 04 Jan 2023 08:01:25 GMT</pubDate>
-            <description><![CDATA[🛠 Tech Stack]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-tech-stack">🛠 Tech Stack<a class="hash-link" href="#-tech-stack" title="제목으로 바로 가기">​</a></h3><p><img loading="lazy" src="https://img.shields.io/badge/JAVA-007396?style=flat-square&amp;logo=Java&amp;logoColor=white" alt="java" class="img_ev3q">
-<img loading="lazy" src="https://img.shields.io/badge/JAVASCRIPT-F7D1E?style=flat-square&amp;logo=JavaScript&amp;logoColor=white" alt="javascript" class="img_ev3q">
-<img loading="lazy" src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&amp;logo=HTML5&amp;logoColor=white" alt="html5" class="img_ev3q">
-<img loading="lazy" src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&amp;logo=CSS3&amp;logoColor=white" alt="css3" class="img_ev3q"></p><p><img loading="lazy" src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&amp;logo=Spring&amp;logoColor=white" alt="spring" class="img_ev3q"></p><p><img loading="lazy" src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat-square&amp;logo=Eclipse%20IDE&amp;logoColor=white" alt="eclipse" class="img_ev3q">
-<img loading="lazy" src="https://img.shields.io/badge/IntelliJ%20IDEA-000000.svg?style=flat-square&amp;logo=intellij-idea&amp;logoColor=white" alt="IntelliJ" class="img_ev3q">
-<img loading="lazy" src="https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=flat-square&amp;logo=Apache%20Tomcat&amp;logoColor=white" alt="tomcat" class="img_ev3q"></p><p><img loading="lazy" src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&amp;logo=oracle&amp;logoColor=white" alt="oracle" class="img_ev3q">
-<img loading="lazy" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=MySQL&amp;logoColor=white" alt="mysql" class="img_ev3q">
-<img loading="lazy" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=PostgreSQL&amp;logoColor=white" alt="postgresql" class="img_ev3q"></p><p><img loading="lazy" src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&amp;logo=Windows&amp;logoColor=white" alt="windows" class="img_ev3q">
-<img loading="lazy" src="https://img.shields.io/badge/macOS-000000?style=flat-square&amp;logo=macOS&amp;logoColor=white" alt="macos" class="img_ev3q">
-<img loading="lazy" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&amp;logo=Linux&amp;logoColor=white" alt="linux" class="img_ev3q"></p>]]></content:encoded>
-            <category>About</category>
-            <category>Resume</category>
-        </item>
         <item>
             <title><![CDATA[Docker - no route to host]]></title>
             <link>https://wallybum.github.io/2022/11/30/no-route-to-host</link>
@@ -158,6 +139,25 @@ Docusaurus는 타입스크립트 테마 컴포넌트를 작성하고 사용하�
 <img loading="lazy" alt="img1" src="/assets/images/05-InputToken-346325d912b3d477abfaaaaa64041275.png" width="2526" height="1442" class="img_ev3q"></p><p>push가 정상적으로 되었다면, 레파지토리 &gt; settings &gt; pages 에서 source를 gh-pages로 변경한다.</p><p><img loading="lazy" alt="img1" src="/assets/images/06-changeRepo-c072ce8c23850dd950f0535e1e8822ac.png" width="2120" height="758" class="img_ev3q"></p><p>그다음 Actions 메뉴에 들어가면 github-actions가 자동으로 빌드하고 배포를 하게되며, 이 과정을 확인할 수 있다.
 <img loading="lazy" alt="img1" src="/assets/images/07-confirm-df5e1893d5c20fdf6fa45fba7aebcb4e.png" width="2174" height="984" class="img_ev3q"></p>]]></content:encoded>
             <category>Blog</category>
+        </item>
+        <item>
+            <title><![CDATA[About Me]]></title>
+            <link>https://wallybum.github.io/2022/05/20/about</link>
+            <guid>/2022/05/20/about</guid>
+            <pubDate>Fri, 20 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[🛠 Tech Stack]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-tech-stack">🛠 Tech Stack<a class="hash-link" href="#-tech-stack" title="제목으로 바로 가기">​</a></h3><p><img loading="lazy" src="https://img.shields.io/badge/JAVA-007396?style=flat-square&amp;logo=Java&amp;logoColor=white" alt="java" class="img_ev3q">
+<img loading="lazy" src="https://img.shields.io/badge/JAVASCRIPT-F7D1E?style=flat-square&amp;logo=JavaScript&amp;logoColor=white" alt="javascript" class="img_ev3q">
+<img loading="lazy" src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&amp;logo=HTML5&amp;logoColor=white" alt="html5" class="img_ev3q">
+<img loading="lazy" src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&amp;logo=CSS3&amp;logoColor=white" alt="css3" class="img_ev3q"></p><p><img loading="lazy" src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&amp;logo=Spring&amp;logoColor=white" alt="spring" class="img_ev3q"></p><p><img loading="lazy" src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat-square&amp;logo=Eclipse%20IDE&amp;logoColor=white" alt="eclipse" class="img_ev3q">
+<img loading="lazy" src="https://img.shields.io/badge/IntelliJ%20IDEA-000000.svg?style=flat-square&amp;logo=intellij-idea&amp;logoColor=white" alt="IntelliJ" class="img_ev3q">
+<img loading="lazy" src="https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=flat-square&amp;logo=Apache%20Tomcat&amp;logoColor=white" alt="tomcat" class="img_ev3q"></p><p><img loading="lazy" src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&amp;logo=oracle&amp;logoColor=white" alt="oracle" class="img_ev3q">
+<img loading="lazy" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&amp;logo=MySQL&amp;logoColor=white" alt="mysql" class="img_ev3q">
+<img loading="lazy" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=PostgreSQL&amp;logoColor=white" alt="postgresql" class="img_ev3q"></p><p><img loading="lazy" src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&amp;logo=Windows&amp;logoColor=white" alt="windows" class="img_ev3q">
+<img loading="lazy" src="https://img.shields.io/badge/macOS-000000?style=flat-square&amp;logo=macOS&amp;logoColor=white" alt="macos" class="img_ev3q">
+<img loading="lazy" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&amp;logo=Linux&amp;logoColor=white" alt="linux" class="img_ev3q"></p>]]></content:encoded>
+            <category>About</category>
+            <category>Resume</category>
         </item>
     </channel>
 </rss>
