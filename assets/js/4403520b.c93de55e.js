@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwallybum_github_io=self.webpackChunkwallybum_github_io||[]).push([[6274],{1254:a=>{a.exports=JSON.parse('{"label":"Bridge","permalink":"/tags/bridge","allTagsPath":"/tags","count":1}')}}]);

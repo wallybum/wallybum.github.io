@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwallybum_github_io=self.webpackChunkwallybum_github_io||[]).push([[1525],{8658:e=>{e.exports=JSON.parse('{"label":"InfoCenter","permalink":"/tags/info-center","allTagsPath":"/tags","count":1}')}}]);

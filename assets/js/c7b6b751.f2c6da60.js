@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwallybum_github_io=self.webpackChunkwallybum_github_io||[]).push([[6316],{7881:e=>{e.exports=JSON.parse('{"permalink":"/tags/\uc2f1\uae00\ud1a4-\ud328\ud134","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

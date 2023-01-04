@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwallybum_github_io=self.webpackChunkwallybum_github_io||[]).push([[2910],{5562:a=>{a.exports=JSON.parse('{"label":"\uc2f1\uae00\ud1a4 \ud328\ud134","permalink":"/tags/\uc2f1\uae00\ud1a4-\ud328\ud134","allTagsPath":"/tags","count":1}')}}]);
