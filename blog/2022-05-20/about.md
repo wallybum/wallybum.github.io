@@ -1,5 +1,4 @@
 ---
-slug: about
 title: About Me
 authors: [wallybum]
 tags: [About, Resume]
