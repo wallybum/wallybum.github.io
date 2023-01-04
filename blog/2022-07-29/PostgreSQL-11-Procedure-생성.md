@@ -1,12 +1,7 @@
 ---
-sidebar_position: 2
 authors: [wallybum]
 tags: [Database, PostgreSQL, Function, Procedure]
 ---
-# Function과 Procedure에 대하여
-
-## 데이터베이스 환경
-- Postgresql 9.2, PostgreSQL 11 이상
 
 ## 개요
 PostgreSQL DBMS 여러 버전에서 Function과 Procedure를 생성하는 작업을 할 일이 있었다. 
@@ -16,6 +11,12 @@ Function과 Procedure 생성은 공식문서를 통해 생성 방법을 쉽게 �
 **'그러면 PostgreSQL 11 이전 버전에서는 Procedure를 어떻게 생성하지? 설마 지원을 안 했나?'** 
 
 라는 생각에서 확인하고 기록을 남기려고 한다.
+
+<!--truncate-->
+
+## 데이터베이스 환경
+- Postgresql 9.2, PostgreSQL 11 이상
+
 
 ## Function과 Procedure
 Function과 Procedure에 대한 차이를 조사하다 보면, **Function은 반환 값이 있으며, Procedure는 반환 값이 없다.** 라는 글을 자주 접할 수 있는데, 결론부터 말하면 이 내용은 완전히 잘못된 정의이다. **Function과 Procedure 둘 다 반환 값을 가질 수 있다.**

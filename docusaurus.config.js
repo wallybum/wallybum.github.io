@@ -20,28 +20,27 @@ const config = {
   projectName: 'wallybum.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false, 
+  plugins: [
+    require.resolve('@docusaurus/plugin-content-docs'),
+    require.resolve("@cmfcmf/docusaurus-search-local")
+  ],
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-  // i18n: {
-  //   defaultLocale: 'en',
-  //   locales: ['en'],
-  // },
+  i18n: {
+    defaultLocale: 'ko',
+    locales: ['ko'],
+  },
 
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+       docs:false,
         blog: {
           showReadingTime: true,
+          routeBasePath : "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -64,37 +63,13 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'tutorial/intro',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
           {
             to: '/blog',
             label: 'Blog',
             position: 'left'
           },
           {
-            type: 'doc',
-            docId: 'database/intro',
-            label: 'Database',
-            position: 'left'
-          },
-          {
-            type: 'doc',
-            docId: 'development/intro',
-            label: 'Development',
-            position: 'left'
-          },
-          {
-            type: 'doc',
-            docId: 'server/intro',
-            label: 'Server',
-            position: 'left'
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/wallybum',
             label: 'GitHub',
             position: 'right',
           },

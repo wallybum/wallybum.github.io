@@ -1,14 +1,15 @@
 ---
-slug: blog
 title: Docusaurus 블로그 구현기
 authors: [wallybum]
-# tags: [facebook, hello, docusaurus]
+tags: [Blog]
 ---
 
 ## 블로그를 만든 이유
 사실 예전부터 Tistroy 블로그를 운영하였다. Tistory에서 글을 작성할 때, 내가 사용하는 스킨에 따라 개성 있는 글을 작성할 수 있다는 장점 때문에 사용하였다.
 하지만, 해당 스킨은 내가 직접 만든 것이 아니기 때문에, 스킨 배포자의 라이선스 정책 변경이나, 업데이트 중단 등의 문제가 발생하였을 경우 
 지금까지 작성한 게시물에 대한 수정도 필요하고 귀찮아 질 것 같았다.
+
+<!--truncate-->
 
 그리고 포스팅이란 나의 경험을 글로 써 내려가는 것이기 가급적 똥글 작성을 지양해야 하는데, 똥글이 되지 않기 위해서는 콘텐츠의 구성과 내용의 정확성도 포함되지만 가독성도 중요하다고 생각한다.
 그래서 마크다운(Markdown)을 지원하는 Git Pages를 이용하고자 이주하였다. ~~(티스토리도 마크다운을 지원하지만... 뭔가 불편)~~
@@ -43,7 +44,7 @@ npx create-docusaurus@latest wallyuser.github.io classic --typescript
 만약 node 버전이 14버전보다 낮을 경우 **npx: ~개의 패키지를 ~~초만에 설치했습니다.** 라는 문구만 출력되고 실제로는 설치되지 않는다.
 또한, 설치하려는 PC에 npm과 yarn이 둘다 설치되어 있을 경우 알래와 같이 어떤 패키지 관리 툴로 설치할지 물어본다. 여기서는 yarn으로 진행한다.
 
-![img1](../static/img/blog/01-InstallDocusaurus.png)
+![img1](./01-InstallDocusaurus.png)
 
 패키지 관리 툴을 선택하면, 자동으로 진행이 완료된다.
 
@@ -58,7 +59,7 @@ npm run start
 
 ### Git Repository 생성
 깃허브에서 Docusaurus 소스를 보관할 레파지토리를 생성한다.
-![img1](../static/img/blog/02-CreateRepository.png)
+![img1](./02-CreateRepository.png)
 ### 최초 커밋
 
 레파지토리를 생성하면 표시되는 가이드에 따라 Docusaurus 소스를 commit & push 한다.
@@ -150,7 +151,7 @@ jobs:
 ```
 yarn build
 ```
-![img1](../static/img/blog/04-build.png)
+![img1](./04-build.png)
 
 그리고 Github > Settings > Developer settings > Personal access tokens > Generate New Token을 클릭한다.
 
@@ -158,7 +159,7 @@ yarn build
 
 아래 그림과 같이 설정하고, 토큰을 생성한다.
 
-![img1](../static/img/blog/03-CreateAccessToken.png)
+![img1](./03-CreateAccessToken.png)
 
 그러면 아래와 같이 토큰이 생성된다.
 
@@ -169,11 +170,11 @@ GIT_USER=<User명> yarn deploy
 ```
 
 그러면 아래 그림과 같이 패스워드를 물어보는데, 앞에서 발급받은 토큰 키를 복사하여 붙여넣는다.
-![img1](../static/img/blog/05-InputToken.png)
+![img1](./05-InputToken.png)
 
 push가 정상적으로 되었다면, 레파지토리 > settings > pages 에서 source를 gh-pages로 변경한다.
 
-![img1](../static/img/blog/06-changeRepo.png)
+![img1](./06-changeRepo.png)
 
 그다음 Actions 메뉴에 들어가면 github-actions가 자동으로 빌드하고 배포를 하게되며, 이 과정을 확인할 수 있다.
-![img1](../static/img/blog/07-confirm.png)
+![img1](./07-confirm.png)

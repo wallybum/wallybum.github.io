@@ -3,7 +3,13 @@ authors: [wallybum]
 tags: [Eclipse, HelpServer, InfoCenter, Apache]
 ---
 
-# Eclipse Help server 구성
+## Eclipse Help Server 구현기
+Eclipse는 사용자들이 Eclipse 사용법을 익히는데 도움을 주는 도움말 문서가 있다.
+이 도움말 문서는 pdf형태의 문서파일이 아닌 자체 도움말 서버를 운영하고있다.
+Eclipse Plug-in을 개발하는 입장에서 Eclipse의 도움말 문서 형식에 따라 개발하는 Plug-in에 대한 도움말을 제공하고자 
+로컬 도움말 서버를 구현해보고자 한다.
+
+<!--truncate-->
 
 ## 서버 환경
 - OS : MacOS Montery(12.4)
@@ -14,22 +20,22 @@ tags: [Eclipse, HelpServer, InfoCenter, Apache]
 ### Plug-in 프로젝트 생성
 Eclipse에서 Plug-in 프로젝트를 생성한다. Plug-in Project를 생성하기 위해서는Eclipse Modeling Tools 패키지를 이용해야 한다.
 
-![img1](../../static/img/docs/server/eclipse-help-server/01-Create_Plug-in_Project.png)
+![img1](./01-Create_Plug-in_Project.png)
 
 ### Dependency 추가
 앞에서 생성한 프로젝트의 plugin.xml 파일의 Dependencies 탭에서 아래 그림과 같이 **org.eclipse.help** 디펜던시를 추가한다.
 
-![img2](../../static/img/docs/server/eclipse-help-server/02-Add_Dependency.png)
+![img2](./02-Add_Dependency.png)
 
 ### Extension 설정
 앞에서 생성한 프로젝트의 plugin.xml 파일의 Extensions 탭에서 아래 그림과 같이 **org.eclipse.help.toc** extension을 추가한다.
 
-![img3](../../static/img/docs/server/eclipse-help-server/03-Add_Extension_Point.png)
+![img3](./03-Add_Extension_Point.png)
 
 ### TOC 설정
 추가된 org.eclipse.help.toc extension을 선택하고 우클릭 > toc를 클릭하여 toc를 추가한다.
 추가된 toc를 선택하고 우측 Extension Element Details 메뉴에서 toc로 사용할 파일의 경로를 미리 지정한다. 본인 편하게 toc/toc.xml로 하였다.
-![img4](../../static/img/docs/server/eclipse-help-server/04-TOC_Setting.png)
+![img4](./04-TOC_Setting.png)
 
 toc.xml 파일을 생성하고 우클릭 > Open With... > Table of Contents Editor 에디터로 열면 아래 그림과 같이 전용 Editor를 볼 수 있다.
 
@@ -37,9 +43,9 @@ toc.xml 파일을 생성하고 우클릭 > Open With... > Table of Contents Edit
 
 그 다음 Add Topic를 눌러 Topic를 추가하고 적당한 이름을 작성한다.
 
-![img5](../../static/img/docs/server/eclipse-help-server/05-TOC_Guide1.png)
+![img5](./05-TOC_Guide1.png)
 
-![img6](../../static/img/docs/server/eclipse-help-server/06-TOC_Guide2.png)
+![img6](./06-TOC_Guide2.png)
 
 
 ### 프로젝트 Export
@@ -51,7 +57,7 @@ Infocenter는 사용자에게 **도움말 컨텐츠**를 표시하는 역할을 
 [여기](https://archive.eclipse.org/eclipse/downloads/)에서 Archived된 버전의 Eclipse를 선택 한다.
 
 버전을 선택하였다면, 스크롤 내려 Platform Runtime Binary 항목에서 운영체제와 CPU 아키텍처와 호환되는 Eclipse를 다운로드 한다.
-![img7](../../static/img/docs/server/eclipse-help-server/07-Platform_Runtime_Binary.png)
+![img7](./07-Platform_Runtime_Binary.png)
 
 참고로, 이 문서를 작성하는 시점에서 크롬 브라우저에서는 다운로드가 진행되지 않는다.
 이유는 Archive 사이트는 SSL이 적용되어 https 프로토콜을 사용하지만, Archive 사이트 내에 연결되어있는 링크는 http로 되어 있다. Chrome 80버전 이후로 https 홈페이지에서 http 자원 접근을 차단하기 때문이다.
@@ -111,4 +117,4 @@ $JAVA_CMD -classpath plugins/${HELP_BASE_JAR_FILE} org.eclipse.help.standalone.I
 
 아래와 같이 TOC가 생성된것을 확인할 수 있다.
 
-![img8](../../static/img/docs/server/eclipse-help-server/08-Result.png)
+![img8](./08-Result.png)

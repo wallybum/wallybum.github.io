@@ -1,18 +1,18 @@
 ---
 authors: [wallybum]
 tags: [디자인 패턴, 팩토리 메서드 패턴]
-sidebar_position: 3
 ---
 # 팩토리 메서드 패턴
 
 ## 개요
 팩토리 메서드 패턴을 줄여서 **팩토리(Factory Pattern)** 이라고 하며, 다른 종류로는 **추상 팩토리 패턴(Abstract Factory Pattern)**이 있다.
 
-
 ## 팩토리 메서드 패턴
 팩토리 매서드 패턴은 생성 패턴(Creational Pattern)의 종류 중 하나이며, 자식(하위) 클래스가 어떤 객체를 생성할지 결정하며, 부모 클래스는 자식 클래스로 부터 전달된 인풋에 따라 객체를 생성하여 반환하도록 설계된 패턴이다.
 
-## 사용이유
+<!--truncate-->
+
+## 사용 이유
 그러면 왜 저런 패턴을 써야할까? 간단하게 치킨(Chicken)을 예로 들겠다.
 
 고객이 치킨을 주문 하면 주문을 받고, 치킨의 이름 / 색깔 / 가격등을 기입하고 고객에게 전달한다는 예제 코드이다.
@@ -316,7 +316,7 @@ public class Customer {
 
 팩토리 메서드 패턴을 적용한 뒤 다이어그램은 아래와 같다.
 
-![img1](../../../../static/img/docs/development/Design%20Pattern/FactoryMethodPattern/FactoryMethodPatternDiagram.png)
+![img1](./FactoryMethodPatternDiagram.png)
 
 
 ## 주의점
