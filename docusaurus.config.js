@@ -57,12 +57,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Wally',
+        title: 'WallyBum',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
+          {
+             to: "/tags",
+             label: "Tags",
+             position: "left"
+          },
           {
             href: 'https://github.com/wallybum',
             label: 'GitHub',
