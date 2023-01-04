@@ -1,4 +1,5 @@
 ---
+title: 싱글톤 패턴
 authors: [wallybum]
 tags: [디자인 패턴, 싱글톤 패턴]
 ---

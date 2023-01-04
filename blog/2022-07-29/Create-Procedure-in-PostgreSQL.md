@@ -1,9 +1,9 @@
 ---
+title: PostgreSQL 프로시저 생성
 authors: [wallybum]
 tags: [Database, PostgreSQL, Function, Procedure]
 ---
 
-## 개요
 PostgreSQL DBMS 여러 버전에서 Function과 Procedure를 생성하는 작업을 할 일이 있었다. 
 Function과 Procedure 생성은 공식문서를 통해 생성 방법을 쉽게 확인할 수 있었다.
 중요한 점은 PostgreSQL 11버전부터 **Create Procedure** 구문을 통해 Procedure 생성을 지원한다는 문구가 이목을 끌었다.

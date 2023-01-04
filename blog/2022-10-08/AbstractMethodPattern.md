@@ -1,11 +1,9 @@
 ---
+title: 추상 팩토리 패턴
 authors: [wallybum]
 tags: [디자인 패턴, 추상 팩토리 패턴]
 ---
 
-# 추상 팩토리 패턴
-
-## 개요
 팩토리 패턴 중 하나인 **추상 팩토리 패턴(Abstract Factory Pattern)**이며, 다른 종류로는 **팩토리 패턴(Factory Pattern) (다른 이름으로는 팩토리 메서드 패턴(Factory Method Pattern)** 이 있다.
 
 ## 추상 팩토리 패턴

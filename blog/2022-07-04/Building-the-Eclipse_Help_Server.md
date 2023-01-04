@@ -1,9 +1,9 @@
 ---
+title: Eclipse Help Server 구현기
 authors: [wallybum]
 tags: [Eclipse, HelpServer, InfoCenter, Apache]
 ---
 
-## Eclipse Help Server 구현기
 Eclipse는 사용자들이 Eclipse 사용법을 익히는데 도움을 주는 도움말 문서가 있다.
 이 도움말 문서는 pdf형태의 문서파일이 아닌 자체 도움말 서버를 운영하고있다.
 Eclipse Plug-in을 개발하는 입장에서 Eclipse의 도움말 문서 형식에 따라 개발하는 Plug-in에 대한 도움말을 제공하고자 

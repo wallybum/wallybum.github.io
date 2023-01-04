@@ -1,13 +1,9 @@
 ---
+title: Docker - no route to host
 authors: [wallybum]
 tags: [Docker, Bridge, Network]
 ---
 
-# Docker - no route to host
-
-
-
-## 개요
 기존 Docker 4.2.X(2021.11월 릴리즈) 를 사용하다가, Docker 업데이트를 진행하였다. 업데이트를 마친 후 필요한 도커 이미지를 다운받으려고 시도하였으나, 접속이 되지 않는 문제가 발생하였다.
 
 <!--truncate-->

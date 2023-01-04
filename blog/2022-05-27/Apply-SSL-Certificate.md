@@ -4,7 +4,6 @@ authors: [wallybum]
 tags: [Ubuntu, Server, SSL, Apache]
 ---
 
-## SSL 인증서 적용 계기
 [여기](https://security.googleblog.com/2020/02/protecting-users-from-insecure_6.html)에 따르면 Google은 https로 설정된 웹사이트에서 http 콘텐츠가 포함된 혼합 콘텐츠(Mixed Content)를 차단할 것이라고 예고하였으며, 혼합 콘텐츠의 타입은 Chrome 81부터 순차적으로 차단한다고 하였다.
 
 회사에서 제공하는 애플리케이션의 확장자가 .exe 파일이며, Chrome 83부터는 Block 되어, 이용자들이 애플리케이션을 다운받을 수 없게 된다.
