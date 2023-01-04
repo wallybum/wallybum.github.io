@@ -21,8 +21,7 @@ const config = {
   deploymentBranch: 'gh-pages',
   trailingSlash: false, 
   plugins: [
-    require.resolve('@docusaurus/plugin-content-docs'),
-    require.resolve("@cmfcmf/docusaurus-search-local")
+    require.resolve('@docusaurus/plugin-content-docs')
   ],
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
