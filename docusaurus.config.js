@@ -64,11 +64,6 @@ const config = {
         },
         items: [
           {
-            to: '/blog',
-            label: 'Blog',
-            position: 'left'
-          },
-          {
             href: 'https://github.com/wallybum',
             label: 'GitHub',
             position: 'right',
