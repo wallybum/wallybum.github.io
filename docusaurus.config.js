@@ -68,9 +68,9 @@ const config = {
              position: "left"
           },
           {
-            href: 'https://github.com/wallybum',
-            label: 'GitHub',
+            href: 'https://github.com/wallybum/wallybum.github.io',
             position: 'right',
+            className: 'header-github-link', 'aria-label': 'GitHub repository',
           },
         ],
       },
