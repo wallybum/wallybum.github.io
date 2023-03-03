@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wallybum.github.io/</id>
     <title>WallyBum Blog</title>
-    <updated>2022-11-30T00:00:00.000Z</updated>
+    <updated>2023-02-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wallybum.github.io/"/>
     <subtitle>WallyBum Blog</subtitle>
     <icon>https://wallybum.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Eclipse 원격 디버깅]]></title>
+        <id>/2023/02/13/Eclipse-Remote-Debugging</id>
+        <link href="https://wallybum.github.io/2023/02/13/Eclipse-Remote-Debugging"/>
+        <updated>2023-02-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[개요]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="개요">개요<a class="hash-link" href="#개요" title="제목으로 바로 가기">​</a></h2><p>Eclipse IDE를 사용하면 다른 JVM(Java Virtual Machine) 또는 다른 시스템에서 실행되는 애플리케이션을 디버그할 수 있다.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="사용-이유">사용 이유<a class="hash-link" href="#사용-이유" title="제목으로 바로 가기">​</a></h2><p>본인의 경우 Local 개발 환경에서 발견하지 못한 버그가 다른 시스템에서 발견 되었을 때, Local 개발 환경을 변경하기에 많은 비용이 발생 하거나, 테스트 케이스가 정확하지 않아 재현하기 어려울 때 사용하였다. </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="설정">설정<a class="hash-link" href="#설정" title="제목으로 바로 가기">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="원격지-listing">원격지 Listing<a class="hash-link" href="#원격지-listing" title="제목으로 바로 가기">​</a></h3>]]></content>
+        <author>
+            <name>WallyBum</name>
+            <uri>https://github.com/wallybum</uri>
+        </author>
+        <category label="Eclipse" term="Eclipse"/>
+        <category label="Debug" term="Debug"/>
+        <category label="Remote" term="Remote"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Docker - no route to host]]></title>
         <id>/2022/11/30/no-route-to-host</id>

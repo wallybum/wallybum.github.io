@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwallybum_github_io=self.webpackChunkwallybum_github_io||[]).push([[4966],{385:e=>{e.exports=JSON.parse('{"label":"Remote","permalink":"/tags/remote","allTagsPath":"/tags","count":1}')}}]);

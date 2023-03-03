@@ -4,10 +4,21 @@
         <title>WallyBum Blog</title>
         <link>https://wallybum.github.io/</link>
         <description>WallyBum Blog</description>
-        <lastBuildDate>Wed, 30 Nov 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Feb 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
+        <item>
+            <title><![CDATA[Eclipse 원격 디버깅]]></title>
+            <link>https://wallybum.github.io/2023/02/13/Eclipse-Remote-Debugging</link>
+            <guid>/2023/02/13/Eclipse-Remote-Debugging</guid>
+            <pubDate>Mon, 13 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[개요]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="개요">개요<a class="hash-link" href="#개요" title="제목으로 바로 가기">​</a></h2><p>Eclipse IDE를 사용하면 다른 JVM(Java Virtual Machine) 또는 다른 시스템에서 실행되는 애플리케이션을 디버그할 수 있다.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="사용-이유">사용 이유<a class="hash-link" href="#사용-이유" title="제목으로 바로 가기">​</a></h2><p>본인의 경우 Local 개발 환경에서 발견하지 못한 버그가 다른 시스템에서 발견 되었을 때, Local 개발 환경을 변경하기에 많은 비용이 발생 하거나, 테스트 케이스가 정확하지 않아 재현하기 어려울 때 사용하였다. </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="설정">설정<a class="hash-link" href="#설정" title="제목으로 바로 가기">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="원격지-listing">원격지 Listing<a class="hash-link" href="#원격지-listing" title="제목으로 바로 가기">​</a></h3>]]></content:encoded>
+            <category>Eclipse</category>
+            <category>Debug</category>
+            <category>Remote</category>
+        </item>
         <item>
             <title><![CDATA[Docker - no route to host]]></title>
             <link>https://wallybum.github.io/2022/11/30/no-route-to-host</link>
