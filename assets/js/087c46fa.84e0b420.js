@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwallybum_github_io=self.webpackChunkwallybum_github_io||[]).push([[96],{5774:a=>{a.exports=JSON.parse('{"label":"SpringBoot","permalink":"/tags/spring-boot","allTagsPath":"/tags","count":1}')}}]);

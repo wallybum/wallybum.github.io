@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwallybum_github_io=self.webpackChunkwallybum_github_io||[]).push([[955],{8535:l=>{l.exports=JSON.parse('{"label":"IntelliJ","permalink":"/tags/intelli-j","allTagsPath":"/tags","count":1}')}}]);

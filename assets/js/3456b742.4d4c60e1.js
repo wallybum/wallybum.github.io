@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwallybum_github_io=self.webpackChunkwallybum_github_io||[]).push([[2436],{1668:l=>{l.exports=JSON.parse('{"label":"Multi-Module","permalink":"/tags/multi-module","allTagsPath":"/tags","count":1}')}}]);
