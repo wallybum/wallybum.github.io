@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwallybum_github_io=self.webpackChunkwallybum_github_io||[]).push([[4059],{6913:a=>{a.exports=JSON.parse('{"label":"MANIFEST","permalink":"/tags/manifest","allTagsPath":"/tags","count":1}')}}]);
